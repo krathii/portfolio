@@ -1,33 +1,78 @@
 import "../css/Contact.css"
-import Img from "../Images/contact.jpg"
-import call from "../Images/icons8-call-48.png"
-import email from "../Images/icons8-email-48.png"
-import linkdin from "../svg icons/icons8-linkedin-logo.svg"
- import react from "react";
-function Contact(){
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wdy0a8z', 'template_78ndc1o', form.current, 'x8AInYumThUd-IRQq')
+      .then((result) => {
+          console.log(result.text);
+          alert('Email sent successfully!');
+        // Clear the form
+        form.current.reset();
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
     return(
         <>
-        <div class="Contact">
-            
-            <h1>
-                <a href="Contact">Contact</a>
+                   
+       <div className="informa">
+        <h2 className="cm">Contact Me</h2>
+        <form ref={form} onSubmit={sendEmail}>
+          <center>
+            <table>
+              <tr>
+                <td>
+                  <label>NAME :</label>
+                </td>
+                <td>
+                  <input name="user_name" type="text" placeholder="Enter Your Name" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>MOBILE:</label>
+                </td>
+                <td>
+                  <input name="mobileNo"
+                    type="text"
+                    placeholder="Enter Your phone number"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>E-MAIL :</label>
+                </td>
+                <td>
+                  <input name="email" type="email" placeholder="Enter Your email" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
                 
-                </h1><br/></div><div class="itsme"><div class="info">
-                    <h2>
-                    <img src={call} alt="svg"/>+917899094278
-                    <br/><br/>
-                    <br/>
-                    <img src={email} alt="svg"/>krathij98@gmail.com
-                    <br/><br/><br/>
-                    <img src={linkdin} alt="svg"/>Krathi Jayakumar
+                </td>
+                
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input type="submit" value="SUBMIT!!" />
+                 
+                </td>
+              </tr>
+            </table>
+          </center>
+        </form>
+      </div><br/><br/>
 
-                    </h2></div>
-                    <div class="photo">
-                    <img src={Img} alt="contact me"/>
-                        </div></div>
-                        <div class="footer">krathi
-
-      </div>
                     
     </>
  
