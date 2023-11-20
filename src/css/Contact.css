@@ -1,0 +1,50 @@
+
+  .footer{
+    position:fixed;
+    bottom: 2px;
+    left:2px;
+    right:2px;
+    text-align:center;
+    padding:15px;
+    background:#050606;
+    color:white;
+  }
+  
+  h2{
+    color:black;
+  }
+  p{
+    color: black;
+  }
+  .Contact a{
+    color:#D80032;
+    text-decoration: none;
+  }
+  .photo img{
+    height:300px;
+    width:100%;
+    padding: 5px;
+    background-color:wheat;
+    
+    justify-content: space-evenly;
+
+
+
+  }
+  .info{
+    height:350px;
+    width:40%;
+    padding: 5px;
+    background-color:#F78CA2;
+
+    justify-content: space-evenly;
+
+  }
+  .itsme{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  
+  
