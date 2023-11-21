@@ -73,21 +73,13 @@ body {
         display: block;
     }
   }
-  .footer{
-    position:fixed;
-    bottom: 2px;
-    left:2px;
-    right:2px;
-    text-align:center;
-    padding:15px;
-    background:#050606;
-    color:white;
-  }
+  
   h1{
     color: yellow;
   }
   h3{
     color: black;
+    
   }
   p{
     color: black;
@@ -161,5 +153,14 @@ body {
   .skills a{
     color: #D80032;
     text-decoration: none; text-decoration: none;
+  }
+  @media (max-width:500px){
+    .infom{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      height:350;
+      width:100% ;
+    }
   }
   

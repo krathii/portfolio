@@ -21,14 +21,12 @@ function About() {
           <br /><br/>I am <del>passionate</del> about Engineering and will embrace
           any opportunity to develop my skills and flourish in my choosen
           career.
-          <br/><br/>
+          <br/>
           <b>I believe in hardwork.</b></h3>
         <br/><br/></div>
       
-      </div><br/><br/>
-      <div class="footer">krathi
-
-      </div>
+      </div><br/><br/><br/>
+      
       
     </>
   );

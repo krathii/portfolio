@@ -1,16 +1,5 @@
 
   
-  .footer{
-    position:fixed;
-    bottom: 2px;
-    left:2px;
-    right:2px;
-    text-align:center;
-    padding:15px;
-    background:#050606;
-    color:white;
-  }
-  
   .About a{
     color:#D80032;
     text-decoration: none;
@@ -42,5 +31,27 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+  @media (max-width:500px){
+    .ab1 img{
+      height:300px;
+      width:80%;
+      padding: 5px;
+      background-color:wheat;
+      
+      justify-content: space-evenly;
+  
+  
+  
+    }
+    .ab2{
+      height:400px;
+      width:40%;
+      padding: 5px;
+      background-color:#F78CA2;
+  
+      justify-content: space-evenly;
+  
+    }
   }
   

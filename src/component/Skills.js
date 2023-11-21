@@ -6,7 +6,8 @@ import icon4 from "../svg icons/icons8-javascript.svg"
 import react from "react";
 function Skills() {
   return (
-    <>
+    <><br/><br/><br/><br/>
+    <br/>
       <div class="skills">
         <h1>
           <a href="Skills">Skills</a>
@@ -19,11 +20,11 @@ function Skills() {
           My skills includes the following,
         </h2>
         
-      </div><br/><br/><br/><br/><br/><div class="infom">
+      </div><br/><br/><br/><div class="infom">
       <div class="icon1">
       <img src={icon1} alt="svg"/>
       <h3>
-        C programming
+        C 
       </h3>
 
       </div>
@@ -46,14 +47,12 @@ function Skills() {
       <div class="icon4">
       <img src={icon4} alt="svg"/>
       <h3>
-        Javascript
+        JS
       </h3>
 
 
       </div></div><br/><br/>
-      <div class="footer">krathi
-
-      </div>
+      
 
       
     </>

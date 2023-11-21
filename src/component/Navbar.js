@@ -74,9 +74,7 @@ function Navbar() {
           </div>
         )}
       </div>
-      <div class="footer">krathi
-
-      </div>
+      
     </div>
     
   );

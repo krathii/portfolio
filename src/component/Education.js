@@ -2,7 +2,7 @@ import "../css/Education.css"
  import react from "react";
 function Education(){
     return(
-        <>
+        <><b5r/>
         <div class="Education">
             <h1>
                 <a href="Education">Education</a>
@@ -16,12 +16,11 @@ function Education(){
                         <h4>Completed Pre-University Course (PUC) at Viveka P U College, Kota</h4>
                     </div>
                     <div class="div3">
-                        <h4></h4>
+                        <h2>2021-2023</h2><br/>
+                        <h4>Currently pursuing my BE at Canara Engineering College, Benjanapadavu </h4>
                     </div>
                     </div>
-                    <div class="footer">krathi
-
-      </div>
+                    
                     
     </>
  
