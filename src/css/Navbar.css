@@ -1,5 +1,5 @@
 body {
-  background-color:#F78CA2;
+  background-color:#ED9ED6;
 }
 header{
   width:100%;
@@ -109,18 +109,10 @@ header{
 
 }
 
-.footer{
-  
-  bottom: 2px;
-  left:2px;
-  right:2px;
-  text-align:center;
-  padding:15px;
-  background:#050606;
-  color:white;
-}
+
 h1{
-  color: yellow;
+  color:#D80032;
+  text-align: center;
 }
 h3{
   color: #d87777;

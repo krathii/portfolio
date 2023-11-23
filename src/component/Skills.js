@@ -6,7 +6,7 @@ import icon4 from "../svg icons/icons8-javascript.svg"
 import react from "react";
 function Skills() {
   return (
-    <><br/><br/><br/><br/>
+    <><br/><br/><br/>
     <br/>
       <div class="skills">
         <h1>

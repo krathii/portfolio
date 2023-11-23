@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import load from "../svg icons/loader-1-svgrepo-com.svg";
 
+
 export const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
@@ -32,7 +33,7 @@ export const Contact = () => {
       );
   };
   return (
-    <>
+    <><br/><br/>
       <div className="informa">
         <div class="Contact">
           <h1>
@@ -104,7 +105,7 @@ export const Contact = () => {
       <br />
       <br />
 
-      <div class="footer">krathi</div>
+      <div class="footer"><h1>Krathi</h1></div>
     </>
   );
 };

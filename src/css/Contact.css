@@ -1,9 +1,9 @@
 
-  .footer{
-    
-    bottom: 2px;
-    left:2px;
-    right:2px;
+  .footer h1{
+    position:relative;
+    bottom:0px;
+    left:0px;
+    right:0px;
     text-align:center;
     padding:15px;
     background:#050606;
@@ -12,13 +12,15 @@
   
   h2{
     color:black;
+    text-align: center;
   }
   p{
     color: black;
   }
-  .Contact a{
+  .Contact  h1 a{
     color:#D80032;
     text-decoration: none;
+    text-align: center;
   }
   .photo img{
     height:300px;
@@ -31,11 +33,12 @@
 
 
   }
-  .info{
+  .informa{
     height:350px;
-    width:40%;
+    width:80%;
     padding: 5px;
-    background-color:#F78CA2;
+    background-color:ED9ED6;
+    text-align: center;
 
     justify-content: space-evenly;
 
@@ -45,9 +48,19 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  @media (max-width:600px){
   img{
     width: 40%;
-    height:40px;
+    height:120px;
+    
   }
+}
+ h1{
+  color: rgb(84, 26, 63);
+ }
+ img{
+  width:10%;
+  height: 100px;
   
+ }
   
