@@ -7,7 +7,7 @@ import react from "react";
 function Skills() {
   return (
     <><br/><br/><br/>
-    <br/>
+    <br/><div className="foot">
       <div class="skills">
         <h1>
           <a href="Skills">Skills</a>
@@ -53,7 +53,7 @@ function Skills() {
 
       </div></div><br/><br/>
       
-
+      </div>
       
     </>
   );

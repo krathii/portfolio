@@ -33,7 +33,7 @@ export const Contact = () => {
       );
   };
   return (
-    <><br/><br/>
+    <><br/><br/><div className="ff">
       <div className="informa">
         <div class="Contact">
           <h1>
@@ -104,8 +104,9 @@ export const Contact = () => {
       </div>
       <br />
       <br />
+      </div>
 
-      <div class="footer"><h1>Krathi</h1></div>
+      
     </>
   );
 };

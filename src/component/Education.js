@@ -63,6 +63,10 @@ function Education() {
           <Card Education={item} />
         ))}
       </diV>
+      
+      
+      
+
     </>
   );
 }

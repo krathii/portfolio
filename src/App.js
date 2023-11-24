@@ -6,6 +6,8 @@ import Skills from './component/Skills';
 import Contact from './component/Contact';
 import Home from './component/Home';
 import Education from './component/Education';
+import Footer from './component/Footer';
+
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         <Route path='/skills' element={<Skills />}/>
         <Route path='/contact' element={<Contact />}/>
         <Route path='/education' element={<Education />}/>
-         </Routes></BrowserRouter>
+        <Route path='/footer' element={<Footer />}/>
+        
+         </Routes><Footer/></BrowserRouter>
      {/*<About/>
       <Skills/>
   <Contact/>*/}
